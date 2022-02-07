@@ -6,33 +6,63 @@
     
 }
 
+.container3{
+    height: 100%;
+    width:100%;
+}
+
+.layer1 img{
+    left: 0;
+    bottom:0;
+    max-width: 100%; height: auto;
+    position: fixed;
+}
+
+.layer2 img{
+    left: 0;
+    bottom:0;
+    max-width: 100%; height: auto;
+    position: fixed;
+}
+
+.layer3 img{
+    left: 0;
+    bottom:0;
+    max-width: 100%; height: auto;
+    position: fixed;
+}
+
+.layer4 img{
+    left: 0;
+    bottom:0;
+    max-width: 100%; height: auto;
+    position: fixed;
+}
 
 .layer1{
-    width: 100%;
+    left: 0;
     top:0;
+    max-width: 100%; height: auto;
     position: fixed;
-    object-fit: cover;
 }
 
 .layer2{
-    width: 100%;
-    top:0;
+
+    left: 0;
+    max-width: 100%; height: auto;
     position: fixed;
-    object-fit: cover;
 }
 
 .layer3{
-    width: 100%;
-    top:0;
+    left: 0;
+    max-width: 100%; height: auto;
     position: fixed;
-    object-fit: cover;
 }
 
 .layer4{
-    width: 100%;
-    top:0;
+    left: 0;
+    max-width: 100%; height: auto;
     position: fixed;
-    object-fit: cover;
     opacity:45%;
 }
 
@@ -67,29 +97,37 @@
 
 	}
 
+.container2{
+    left: 0;
+    top:0;
+    max-width: 100%; height: auto;
+    position: fixed;
+}
 
 .text{
     position: fixed;
     color:rgb(0, 0, 0);
-    font-size: 25px;
+    font-size: 1.3vw;
     font-family: henriette, sans-serif;
 
     font-weight: 700;
     
     font-style: italic;
-    top: 540px;
-    left: 340px;
+    top: 50%;
+    left: 17.7%;
     transform: rotate(10deg);
     text-align:center;
 
 }
 
 .plz{
-    color: rgba(255, 255, 255, 0.253);
+    color: rgba(255, 255, 255, 0.322);
     
     position: fixed;
-    left:20px;
-    top: 10px;
+    left:0;
+    top: 0;
+    margin-left:1.046vw;
+    margin-top: 10px;
 }
 
 .E{
@@ -99,9 +137,9 @@
 .text1{
     position: fixed;
     color:rgb(0, 0, 0);
-    font-size: 20px;
-    top:430px;
-    left:760px;
+    font-size: 1.046vw;
+    top:39.8148vh;
+    left:39.583vw;
     transform: rotate(-5deg);
     text-align:left;
     opacity: 85%;
@@ -137,3 +175,5 @@ a:link {
     color : black;
     text-decoration: none;
 }
+
+ 
